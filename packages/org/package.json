@@ -1,0 +1,36 @@
+{
+  "name": "@vis/org",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "couriourc <3234853521@qq.com>",
+  "homepage": "https://github.com/couriourc/couriourc-graph-vis.github.io#readme",
+  "license": "ISC",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "directories": {
+    "lib": "lib",
+    "dist": "dist"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/couriourc/couriourc-graph-vis.github.io.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@vis/org.test.js",
+    "dev": "cross-env NODE_ENV=development couriourc-graph-vis build",
+    "build": "cross-env NODE_ENV=production couriourc-graph-vis build"
+  },
+  "bugs": {
+    "url": "https://github.com/couriourc/couriourc-graph-vis.github.io/issues"
+  },
+  "dependencies": {
+    "@vis/cli": "workspace:^0.0.0"
+  }
+}
