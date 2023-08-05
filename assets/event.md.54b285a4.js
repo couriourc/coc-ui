@@ -1,0 +1,1 @@
+import{_ as e,s as t,e as a}from"./chunks/framework.00b733e0.js";const f=JSON.parse('{"title":"事件脉络图","description":"","frontmatter":{"title":"事件脉络图"},"headers":[],"relativePath":"event.md","filePath":"event.md","lastUpdated":1691241181000}'),r={name:"event.md"};function s(n,o,d,c,i,p){return a(),t("div")}const m=e(r,[["render",s]]);export{f as __pageData,m as default};
